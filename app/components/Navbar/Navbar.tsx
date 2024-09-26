@@ -1,5 +1,3 @@
-import Image from "next/image"
-import img from '@/app/assets/logo.svg'
 
 export const Navbar = () => {
 
@@ -10,7 +8,7 @@ export const Navbar = () => {
 
 
             <div>
-                <h1 className="text-4xl  first-letter:bg-orange-500 first-letter:font-bold "><span className=" text-white bg-clip-padding border-r-8 border-l-8 border-orange-500">M</span>uhammad</h1>    
+                <h1 className="text-4xl  first-letter:bg-orange-500 font-bold "><span className=" text-white bg-clip-padding border-r-8 border-l-8 border-orange-500">M</span>uhammad</h1>    
             </div>
 
             <div className="hidden w-full md:block md:w-auto" id="navbar-default">
