@@ -5,6 +5,8 @@ import { MyProjects } from './components/MyProjects/MyProjects'
 import {Service} from '@/app/components/Service/Service'
 import { Testimonials } from "@/app/components/Testimonials/Testimonials"
 import { ContactUs } from '@/app/components/Contact/ContactUs'
+import { Footer } from '@/app/components/Footer/Footer'
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
       <MyProjects />
       <Testimonials />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

@@ -17,8 +17,8 @@ export const Header = () => {
                     <p className='text-3xl py-2 font-semibold text-orange-500'>Muhhamad Bin Jameel</p>
                 
                     <div className='h-fit mb-4  text-6xl md:text-7xl lg:text-8xl font-bold sm:h-fit'>
-                        <h1 className='text-start md:text-start'>UI & UX</h1>
-                        <h2 className='text-start md:text-end'>Designer</h2>
+                        <h1 className='text-start md:text-start h-[8rem]'>UI & UX</h1>
+                        <h2 className='text-start md:text-end h-[8rem]'>Designer</h2>
                     </div>
 
                     <p className='md:w-[706px] text-xl '>Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam venenatis nisi ante. Aliquet ornare tellus consectetur lacus</p>

@@ -4,7 +4,7 @@ export const Service = ()=>{
 
     return( 
 
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto py-16 px-4 space-x-22">
             <div className="text-center">
                 <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Service</h1>
                 <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
@@ -32,7 +32,7 @@ export const Service = ()=>{
                         </div>
                     </div>
 
-                    <div className="pt-6">
+                    <div className="pt-6 ms-4">
                         <div className=" bg-gray-50 rounded-lg px-6 py-8">
                             <div className="-mt-6">
                                 <div>
@@ -51,7 +51,7 @@ export const Service = ()=>{
                         </div>
                     </div>
 
-                    <div className="pt-6">
+                    <div className="pt-6 ms-4">
                         <div className=" bg-gray-50 rounded-lg px-6 py-8">
                             <div className="-mt-6">
                                 <div>
@@ -69,7 +69,7 @@ export const Service = ()=>{
                         </div>
                     </div>
 
-                    <div className="pt-6">
+                    <div className="pt-6 ms-4 ">
                         <div className=" bg-gray-50 rounded-lg px-6 py-8">
                             <div className="-mt-6">
                                 <div>

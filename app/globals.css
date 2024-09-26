@@ -36,3 +36,11 @@
  input[type="range"]::-moz-range-progress {
      background-color: var(--track-color);
  }
+
+
+ *{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+ }
+
+ 
