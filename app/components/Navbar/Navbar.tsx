@@ -3,7 +3,7 @@ export const Navbar = () => {
 
 
     return (
-        <div className="flex  max-w-screen-xl flex-wrap items-center justify-between mx-auto p-4">
+        <nav className="flex  max-w-screen-xl flex-wrap items-center justify-between mx-auto pt-10">
 
 
 
@@ -44,6 +44,6 @@ export const Navbar = () => {
 
 
 
-        </div>
+        </nav>
     )
 }
