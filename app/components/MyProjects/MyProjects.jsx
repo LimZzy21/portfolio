@@ -16,18 +16,18 @@ export const MyProjects = ()=>{
             </div>
 
             <div className="flex  px-8 items-center justify-center space-x-28 pt-24">
-                <div class="  ">
-                    <Image src={img} width={449} height={500} alt="Landing Page Design" class=" h-auto" />
+                <div className="  ">
+                    <Image src={img} width={449} height={500} alt="Landing Page Design" className=" h-auto" />
                         <h4 className="text-start text-orange-500  text-xl mt-4">UI UX</h4>
                         <h3 className="text-start text-black font-bold text-2xl">AirCalling Landing Page Design</h3>
                 </div>
-                <div class="  ">
-                    <Image src={img} width={449} height={500} alt="Landing Page Design" class=" h-auto" />
+                <div className="  ">
+                    <Image src={img} width={449} height={500} alt="Landing Page Design" className=" h-auto" />
                         <h4 className="text-start text-orange-500  text-xl mt-4">UI UX</h4>
                         <h3 className="text-start text-black font-bold text-2xl">AirCalling Landing Page Design</h3>
                 </div>
-                <div class="text-center  ">
-                    <Image src={img} width={449} height={500} alt="Landing Page Design" class=" h-auto" />
+                <div className="text-center  ">
+                    <Image src={img} width={449} height={500} alt="Landing Page Design" className=" h-auto" />
                         <h4 className="text-start text-orange-500  text-xl mt-4">UI UX</h4>
                         <h3 className="text-start text-black font-bold text-2xl">AirCalling Landing Page Design</h3>
                 </div>

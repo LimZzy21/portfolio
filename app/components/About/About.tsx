@@ -28,19 +28,19 @@ export const About = ()=>{
 
                     <div className=" items-center space-x-2">
                         <label htmlFor="ux" className="text-black font-semibold ps-4 text-xl">UX</label>
-                        <input id="ux" type="range" value="90" min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
+                        <input id="ux" type="range" defaultValue={90} min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
                     </div>
                     <div className=" items-center space-x-2">
                         <label htmlFor="ds" className="text-black font-semibold ps-4 text-xl">Website Design</label>
-                        <input id="ds" type="range" value="70" min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
+                        <input id="ds" type="range" defaultValue={70} min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
                     </div>
                     <div className=" items-center space-x-2">
                         <label htmlFor="ux" className="text-black font-semibold ps-4 text-xl">App Design</label>
-                        <input id="ux" type="range" value="85" min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
+                        <input id="ux" type="range" defaultValue={85} min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
                     </div>
                     <div className=" items-center space-x-2">
                         <label htmlFor="ux" className="text-black font-semibold ps-4 text-xl">Graphic Design</label>
-                        <input id="ux" type="range" value="75" min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
+                        <input id="ux" type="range" defaultValue={75} min="0" max="100" className="w-full h-2 bg-gray-200 rounded-lg appearance-none m-2 range-orange"/>
                     </div>
                     
 
