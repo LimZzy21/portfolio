@@ -8,9 +8,9 @@ import Image from 'next/image'
 export const Header = () => {
 
     return (
-        <div className='flex  max-w-screen-xl flex-wrap items-center justify-between mx-auto  mt-[8rem]'>
+        <div className='flex  max-w-screen-xl flex-wrap items-center justify-between mx-auto  mt-[7rem]'>
 
-            <div className='block md:flex'>
+            <div className='block md:flex items-center'>
 
                 <div>
                     <p className='text-2xl font-semibold'>Hi I am</p>
@@ -28,11 +28,11 @@ export const Header = () => {
 
                 <div className=" flex flex-col items-center justify-center ps-3">
 
-                    <div>
+                    <div className='pb-10'>
                         <Image src={img} alt='photo' />
                     </div>
 
-                    <div className='flex justify-center space-x-8 pe-[7rem] pt-8'>
+                    <div className='flex justify-center space-x-8 pe-[7rem] '>
                         <Image src={facebook} alt='facebook' />
                         <Image src={twitter} alt='twitter' />
                         <Image src={instagram} alt='instagram' />
